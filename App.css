@@ -1,0 +1,66 @@
+/* App.css */
+body {
+    background-color: #f0f0f0; /* Light grey background */
+  }
+  
+  .main-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .progress-container {
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+  }
+  
+  .progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+  }
+  
+  .file-input {
+    margin-top: 20px;
+  }
+  
+  .result-text {
+    margin-top: 20px;
+  }
+  
+  /* Custom button styles */
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Blue */
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; /* Grey */
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #545b62; /* Darker grey on hover */
+  }
+  
